@@ -173,7 +173,7 @@ img {
 }
 
 .mt-100 {
-    margin-top: 250px;
+    /* margin-top: 250px; */
 }
 
 .number_4 {
@@ -195,9 +195,10 @@ img {
     color: #676CDB;
     margin-left: 30px;
     margin-top: 10px;
+    
 }
 
-.box_1{
+.box_1 {
     width: 622.03px;
     height: 286.4px;
     background: #676CDB;
@@ -205,66 +206,68 @@ img {
 
 }
 
-.box_2{
+.box_2 {
     width: 288px;
-height: 288px;
+    height: 288px;
 
-background: #C4C4C4;
+    background: #C4C4C4;
 }
 
 
 
-.justify-content-between{
-   justify-content: space-between;
+.justify-content-between {
+    justify-content: space-between;
 }
 
-.boxies{
+.boxies {
     display: flex;
     justify-content: center;
 }
 
-.lorem{
+.lorem {
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 180%;
-/* or 36px */
-
-
-color: #FFFFFF;
-
-}
-
-.last-text{
     font-style: normal;
-font-weight: 700;
-font-size: 30px;
-line-height: 120%;
-/* or 36px */
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 180%;
+    /* or 36px */
 
 
-color: #FFFFFF;
+    color: #FFFFFF;
+
 }
 
-.mt-100{
+.last-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    text-transform: ca;
+
+
+
+    color: #FFFFFF;
+}
+
+.mt-100 {
     margin-top: 100px;
 }
-.last_numbers{
+
+.last_numbers {
     font-family: 'Playfair Display';
-font-style: normal;
-font-weight: 700;
-font-size: 50px;
-line-height: 120%;
-/* identical to box height, or 60px */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    /* identical to box height, or 60px */
 
 
-/* pp1 purple */
+    /* pp1 purple */
 
-color: #676CDB;
+    color: #676CDB;
 }
 
-.arrows{
+.arrows {
     display: flex;
     width: 40px;
     height: 40px;
