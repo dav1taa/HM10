@@ -2,6 +2,7 @@ body {
     background: rgba(34, 42, 54, 0.95);
 }
 
+
 img {
     width: 100%;
 }
@@ -119,19 +120,7 @@ img {
 }
 
 
-@media only screen and (max-width: 992px) {
-    .row_box {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        height: 200px;
-        left: 0px;
-        top: 743px;
-        background: #000000;
 
-    }
-
-}
 
 .text_box {
     display: flex;
@@ -172,9 +161,7 @@ img {
 
 }
 
-.mt-100 {
-    /* margin-top: 250px; */
-}
+
 
 .number_4 {
     font-family: 'Playfair Display';
@@ -199,24 +186,16 @@ img {
 }
 
 .box_1 {
-    width: 622.03px;
-    height: 286.4px;
-    background: #676CDB;
-    transform: rotate(90.47deg);
-
+    height: 622.03px; 
+    background: #676CDB; 
+    
 }
 
 .box_2 {
     width: 288px;
     height: 288px;
-
     background: #C4C4C4;
-}
-
-
-
-.justify-content-between {
-    justify-content: space-between;
+    
 }
 
 .boxies {
@@ -242,7 +221,7 @@ img {
     font-weight: 700;
     font-size: 30px;
     line-height: 120%;
-    text-transform: ca;
+    text-transform: capitalize;
 
 
 
@@ -257,13 +236,8 @@ img {
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 45px;
     line-height: 120%;
-    /* identical to box height, or 60px */
-
-
-    /* pp1 purple */
-
     color: #676CDB;
 }
 
@@ -273,4 +247,25 @@ img {
     height: 40px;
 
 
+}
+
+.mt-35{
+    margin-top: 35px;
+}
+
+
+.end_box{
+
+height: 650px;
+background: rgba(34, 42, 54, 0.95);
+margin-top: 98px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    width: 100%;
+    height: 80px;
+    
 }
